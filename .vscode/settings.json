@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugin=pylint_django",
+        "--django-settings-module=<cabin_website.settings"
+    ]
+}
